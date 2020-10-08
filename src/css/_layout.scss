@@ -1,0 +1,53 @@
+@import "./base";
+
+/*Header*/
+
+header {
+    padding: 0 60px;
+    padding-top: 60px;
+}
+.titles {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    p {
+        font-weight: 600;
+        border-bottom: 1px solid #999;
+
+    }
+}
+
+/*Container*/
+
+.container {
+    padding: 0 60px;
+}
+.course {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    p {
+        float: left;
+        margin: 0px 0;
+        border-bottom: 1px solid #999;
+        padding: 10px 10px 10px 0px;
+
+    }
+    a {
+        color: $primaryColor;
+        margin: 0px 0;
+        border-bottom: 1px solid #999;
+        padding: 10px 10px 10px 0px;
+
+
+    }
+}
+
+/*Mobile or smaller screens*/
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        form {
+            width: 100%;
+        }
+    }
+
+}

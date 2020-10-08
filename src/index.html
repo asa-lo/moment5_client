@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moment 5 - Rest-webbtjänst, Fetch API - Åsa Lodesjö</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+    <!-- Header and main content-->
+    <header>
+        <h1>Rest-webbtjänst som använder Fetch API</h1>
+        <h2>Kurser jag läst:</h2>
+
+        <div class="titles">
+            <p>Kurskod:</p>
+            <p>Kursnamn:</p>
+            <p>Progression:</p>
+            <p>Kursplan:</p>
+        </div>
+    </header>
+
+    <!-- Container -->
+    <div class="container">
+
+        <!-- Div for print courselist -->
+        <div id="courses">
+        </div>
+        <br>
+        <h2>Lägg till kurs:</h2>
+
+        <!-- Form to add/create new course to list -->
+        <form id="courseForm">
+            <label for="code">Kurskod:</label><br>
+            <input type="text" name="code" id="coursecode"><br>
+            <label for="name">Kursnamn:</label><br>
+            <input type="text" name="name" id="coursename"><br>
+            <label for="progression">Progression:</label><br>
+            <input type="text" name="progression" id="courseprogression"><br>
+            <label for="coursesyllabus">Kurslista:</label><br>
+            <input type="text" name="coursesyllabus" id="coursesyllabus">
+            <br><br>
+            <input type="submit" value="Lägg till" id="btn">
+        </form>
+    </div>
+
+    <!-- JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+@import "./base";
+
+form {
+    width: 50%;
+    label {
+        font-size: $fontsize;
+        color: $fontColor;
+
+    }
+    input {
+        margin-bottom: 10px;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #999;
+        background-color: $primaryBackground;
+        margin-top: 5px;
+        padding: 5px;
+    }
+    #btn {
+        border: 0px;
+        background-color: $primaryColor;
+        color: $linkColor;
+        font-size: $fontsize;
+        font-weight: 600;
+        padding: 20px;
+        &:hover {
+            background-color: $primaryColorHover;
+            border: 0px;
+    }
+}
+}
